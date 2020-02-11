@@ -1,0 +1,35 @@
+name: flutter_01_pageview_indicator
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  provider: ^4.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+
+    - family: Rubik
+      fonts:
+        - asset: fonts/RubikMonoOne-Regular.ttf
+
+    - family: Sf
+      fonts:
+        - asset: fonts/SF-UI-Display-Black.otf
